@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 0b4140e97acc1484f9905adb0814d5f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -510366275400045603
+    second: DangerZone_0
+  - first:
+      213: 4091965879488654969
+    second: DangerZone_1
+  - first:
+      213: 5755952082357219136
+    second: DangerZone_2
+  - first:
+      213: -6902216457982985375
+    second: DangerZone_3
+  - first:
+      213: 7758741484647624455
+    second: DangerZone_4
+  - first:
+      213: -6952104263751746269
+    second: DangerZone_5
+  - first:
+      213: -4954374840697208463
+    second: DangerZone_6
+  - first:
+      213: -6004912946134766482
+    second: DangerZone_7
+  - first:
+      213: 7913027950080356417
+    second: DangerZone_8
+  - first:
+      213: -8996380851300446081
+    second: DangerZone_9
+  - first:
+      213: 287304277517650359
+    second: DangerZone_10
+  - first:
+      213: 4369538214343760322
+    second: DangerZone_11
+  - first:
+      213: 91528391029940627
+    second: DangerZone_12
+  - first:
+      213: 2397469923542358706
+    second: DangerZone_13
+  - first:
+      213: -2016756417233910652
+    second: DangerZone_14
+  - first:
+      213: 7015947855829023908
+    second: DangerZone_15
+  - first:
+      213: 4001404408516888799
+    second: DangerZone_16
+  - first:
+      213: -907345363685323904
+    second: DangerZone_17
+  - first:
+      213: 3387725048484928412
+    second: DangerZone_18
+  - first:
+      213: 224989048414176314
+    second: DangerZone_19
+  - first:
+      213: 1234552303775327331
+    second: DangerZone_20
+  - first:
+      213: -8743687914794764343
+    second: DangerZone_21
+  - first:
+      213: -9135729636876245560
+    second: DangerZone_22
+  - first:
+      213: 7418165017074086793
+    second: DangerZone_23
+  - first:
+      213: 7840651383043043384
+    second: DangerZone_24
+  - first:
+      213: 1074058878764590756
+    second: DangerZone_25
+  - first:
+      213: 8175247475910904074
+    second: DangerZone_26
+  - first:
+      213: 5320988137727406080
+    second: DangerZone_27
+  - first:
+      213: 5792703829467170662
+    second: DangerZone_28
+  - first:
+      213: 1047054505767785041
+    second: DangerZone_29
+  - first:
+      213: -7860980364756397059
+    second: DangerZone_30
+  - first:
+      213: 2975190668910997844
+    second: DangerZone_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DangerZone_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 823
+        width: 170
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbe0799390dae8f0800000000000000
+      internalID: -510366275400045603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 823
+        width: 170
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ea0f7894599c830800000000000000
+      internalID: 4091965879488654969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 823
+        width: 169
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f621d2cef31ef40800000000000000
+      internalID: 5755952082357219136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 823
+        width: 170
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bb11373b66630a0800000000000000
+      internalID: -6902216457982985375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_4
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 823
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f2280d5469cab60800000000000000
+      internalID: 7758741484647624455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 641
+        width: 287
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d3995810a258f90800000000000000
+      internalID: -6952104263751746269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 641
+        width: 235
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1714c10f4568e3bb0800000000000000
+      internalID: -4954374840697208463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 699
+        width: 94
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c2e7aad734aaca0800000000000000
+      internalID: -6004912946134766482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_8
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 695
+        width: 97
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140f64edef8b0dd60800000000000000
+      internalID: 7913027950080356417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_9
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 695
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f705c16d74f662380800000000000000
+      internalID: -8996380851300446081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 699
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9c3ebd7b5bcf300800000000000000
+      internalID: 287304277517650359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 461
+        width: 287
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9547aead7b3ac30800000000000000
+      internalID: 4369538214343760322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_12
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 461
+        width: 235
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e332369c254100800000000000000
+      internalID: 91528391029940627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 546
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2badc607136854120800000000000000
+      internalID: 2397469923542358706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 590
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484884849ba0304e0800000000000000
+      internalID: -2016756417233910652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_15
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 519
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac3a5d1767ad5160800000000000000
+      internalID: 7015947855829023908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 281
+        width: 287
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8c454fb18d78730800000000000000
+      internalID: 4001404408516888799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 281
+        width: 235
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b40f4f2367863f0800000000000000
+      internalID: -907345363685323904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_18
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 359
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b13af8bfd930f20800000000000000
+      internalID: 3387725048484928412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_19
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 347
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a348415f8525f1300800000000000000
+      internalID: 224989048414176314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_20
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 357
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3642b2387c2022110800000000000000
+      internalID: 1234552303775327331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_21
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 338
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c738c3ea2e28a680800000000000000
+      internalID: -8743687914794764343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_22
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 347
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5abf56c4e573180800000000000000
+      internalID: -9135729636876245560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 347
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9833ee7a7cd92f660800000000000000
+      internalID: 7418165017074086793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_24
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 345
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830b4fd24e69fcc60800000000000000
+      internalID: 7840651383043043384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 185
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a62e901cd2d7ee00800000000000000
+      internalID: 1074058878764590756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_26
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 235
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a090498d340547170800000000000000
+      internalID: 8175247475910904074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 104
+        width: 221
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0003f4bf482f7d940800000000000000
+      internalID: 5320988137727406080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_28
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 225
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6678f6c1171d36050800000000000000
+      internalID: 5792703829467170662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_29
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 224
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152d2c48682e78e00800000000000000
+      internalID: 1047054505767785041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 118
+        width: 242
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3df5ce10038e290800000000000000
+      internalID: -7860980364756397059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DangerZone_31
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 22
+        width: 242
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4513f7f66200a4920800000000000000
+      internalID: 2975190668910997844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DangerZone_0: -510366275400045603
+      DangerZone_1: 4091965879488654969
+      DangerZone_10: 287304277517650359
+      DangerZone_11: 4369538214343760322
+      DangerZone_12: 91528391029940627
+      DangerZone_13: 2397469923542358706
+      DangerZone_14: -2016756417233910652
+      DangerZone_15: 7015947855829023908
+      DangerZone_16: 4001404408516888799
+      DangerZone_17: -907345363685323904
+      DangerZone_18: 3387725048484928412
+      DangerZone_19: 224989048414176314
+      DangerZone_2: 5755952082357219136
+      DangerZone_20: 1234552303775327331
+      DangerZone_21: -8743687914794764343
+      DangerZone_22: -9135729636876245560
+      DangerZone_23: 7418165017074086793
+      DangerZone_24: 7840651383043043384
+      DangerZone_25: 1074058878764590756
+      DangerZone_26: 8175247475910904074
+      DangerZone_27: 5320988137727406080
+      DangerZone_28: 5792703829467170662
+      DangerZone_29: 1047054505767785041
+      DangerZone_3: -6902216457982985375
+      DangerZone_30: -7860980364756397059
+      DangerZone_31: 2975190668910997844
+      DangerZone_4: 7758741484647624455
+      DangerZone_5: -6952104263751746269
+      DangerZone_6: -4954374840697208463
+      DangerZone_7: -6004912946134766482
+      DangerZone_8: 7913027950080356417
+      DangerZone_9: -8996380851300446081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

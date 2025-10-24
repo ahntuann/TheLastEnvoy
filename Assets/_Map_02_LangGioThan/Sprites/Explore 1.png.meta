@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 6e6892a94bdff4590a7e96c82f09d3fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6802500561530761227
+    second: Explore_0
+  - first:
+      213: -8613110564216952276
+    second: Explore_1
+  - first:
+      213: 49201827233551842
+    second: Explore_2
+  - first:
+      213: 5293269314128825402
+    second: Explore_3
+  - first:
+      213: -1726767326889348771
+    second: Explore_4
+  - first:
+      213: -4182666575798464572
+    second: Explore_5
+  - first:
+      213: -6694833610065918106
+    second: Explore_6
+  - first:
+      213: -2785641511808734346
+    second: Explore_7
+  - first:
+      213: 3785532739750351667
+    second: Explore_8
+  - first:
+      213: 6422417649560363217
+    second: Explore_9
+  - first:
+      213: -2169795160145005967
+    second: Explore_10
+  - first:
+      213: 2596970392295419743
+    second: Explore_11
+  - first:
+      213: -1812013681552004471
+    second: Explore_12
+  - first:
+      213: 1040171385389821242
+    second: Explore_13
+  - first:
+      213: 1027799291039397103
+    second: Explore_14
+  - first:
+      213: 4870430474698811242
+    second: Explore_15
+  - first:
+      213: 9178234200479629855
+    second: Explore_16
+  - first:
+      213: 2318209160605728275
+    second: Explore_17
+  - first:
+      213: -1236281857797333309
+    second: Explore_18
+  - first:
+      213: -59274640843376766
+    second: Explore_19
+  - first:
+      213: -5770390435923722146
+    second: Explore_20
+  - first:
+      213: -1294511020546423546
+    second: Explore_21
+  - first:
+      213: 3142695215484721387
+    second: Explore_22
+  - first:
+      213: 438410238764614846
+    second: Explore_23
+  - first:
+      213: -3052611668480004332
+    second: Explore_24
+  - first:
+      213: 4116650328576628068
+    second: Explore_25
+  - first:
+      213: -3485198587196592952
+    second: Explore_26
+  - first:
+      213: 5892722255387470894
+    second: Explore_27
+  - first:
+      213: 3802044078452744468
+    second: Explore_28
+  - first:
+      213: 2989713302209503605
+    second: Explore_29
+  - first:
+      213: -3074976058227311312
+    second: Explore_30
+  - first:
+      213: 7413111517841520561
+    second: Explore_31
+  - first:
+      213: 8477255802473127975
+    second: Explore_32
+  - first:
+      213: -7878788531737081054
+    second: Explore_33
+  - first:
+      213: 1526148893768312585
+    second: Explore_34
+  - first:
+      213: 3811122435592211758
+    second: Explore_35
+  - first:
+      213: -3079333866952213329
+    second: Explore_36
+  - first:
+      213: -2369150277084372925
+    second: Explore_37
+  - first:
+      213: -3933654815668461132
+    second: Explore_38
+  - first:
+      213: -5269927280914227503
+    second: Explore_39
+  - first:
+      213: 4111101035399452641
+    second: Explore_40
+  - first:
+      213: 3262191617828063768
+    second: Explore_41
+  - first:
+      213: 7434449741951508023
+    second: Explore_42
+  - first:
+      213: 8614134679141474361
+    second: Explore_43
+  - first:
+      213: 4565601492016260117
+    second: Explore_44
+  - first:
+      213: -5964128415699170554
+    second: Explore_45
+  - first:
+      213: -8949292998266497306
+    second: Explore_46
+  - first:
+      213: -6773580964515699322
+    second: Explore_47
+  - first:
+      213: -4984734669365596691
+    second: Explore_48
+  - first:
+      213: 8838746064995031934
+    second: Explore_49
+  - first:
+      213: 8361148661720909012
+    second: Explore_50
+  - first:
+      213: -6188325486342625264
+    second: Explore_51
+  - first:
+      213: -5481787936309248909
+    second: Explore_52
+  - first:
+      213: 163030391751887968
+    second: Explore_53
+  - first:
+      213: -7961066522317027449
+    second: Explore_54
+  - first:
+      213: 357931719290778384
+    second: Explore_55
+  - first:
+      213: 3082471309156129138
+    second: Explore_56
+  - first:
+      213: 519844523388949753
+    second: Explore_57
+  - first:
+      213: -8460893037304338509
+    second: Explore_58
+  - first:
+      213: -5649669255856534395
+    second: Explore_59
+  - first:
+      213: 7894648898200524230
+    second: Explore_60
+  - first:
+      213: -3149793719557570309
+    second: Explore_61
+  - first:
+      213: -432738397786377371
+    second: Explore_62
+  - first:
+      213: -1088487664686093281
+    second: Explore_63
+  - first:
+      213: -5640537023975024888
+    second: Explore_64
+  - first:
+      213: -1816442421517900215
+    second: Explore_65
+  - first:
+      213: 1579417529814339123
+    second: Explore_66
+  - first:
+      213: -3492833635608980962
+    second: Explore_67
+  - first:
+      213: -6336664423361062245
+    second: Explore_68
+  - first:
+      213: 6709020826408672877
+    second: Explore_69
+  - first:
+      213: 6901103348988370712
+    second: Explore_70
+  - first:
+      213: -8757229733701601879
+    second: Explore_71
+  - first:
+      213: -1716025298277459406
+    second: Explore_72
+  - first:
+      213: -7935665786462695112
+    second: Explore_73
+  - first:
+      213: 3880404514972180644
+    second: Explore_74
+  - first:
+      213: -5623395616068244264
+    second: Explore_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explore_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 807
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00bf623836576e50800000000000000
+      internalID: 6802500561530761227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 688
+        width: 235
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a2fa87395187880800000000000000
+      internalID: -8613110564216952276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_2
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 688
+        width: 272
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e55e8a1dcccea000800000000000000
+      internalID: 49201827233551842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_3
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 795
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ccf117568757940800000000000000
+      internalID: 5293269314128825402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_4
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 688
+        width: 274
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d517207d34a4908e0800000000000000
+      internalID: -1726767326889348771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_5
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 798
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf02a7f8ee24f5c0800000000000000
+      internalID: -4182666575798464572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 786
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667cca96d4c2713a0800000000000000
+      internalID: -6694833610065918106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 791
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bee01ddc96759d0800000000000000
+      internalID: -2785641511808734346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 757
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3335e6e58f9e88430800000000000000
+      internalID: 3785532739750351667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 759
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0ae3923d2012950800000000000000
+      internalID: 6422417649560363217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_10
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 760
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172f1344cc653e1e0800000000000000
+      internalID: -2169795160145005967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 754
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fa9fcffca4a0420800000000000000
+      internalID: 2596970392295419743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 688
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ae1f6382f6ad6e0800000000000000
+      internalID: -1812013681552004471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 746
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dafab2d5e6f6e00800000000000000
+      internalID: 1040171385389821242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 744
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe43dca720a734e00800000000000000
+      internalID: 1027799291039397103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_15
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 728
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67e8ab46be379340800000000000000
+      internalID: 4870430474698811242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_16
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 736
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f120ee08063af5f70800000000000000
+      internalID: 9178234200479629855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 730
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ef5fcf2feeb2020800000000000000
+      internalID: 2318209160605728275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_18
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 719
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cedabf4338d7dee0800000000000000
+      internalID: -1236281857797333309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 717
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2877758370a6d2ff0800000000000000
+      internalID: -59274640843376766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 711
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50847ba8747befa0800000000000000
+      internalID: -5770390435923722146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_21
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 706
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605808ed519f80ee0800000000000000
+      internalID: -1294511020546423546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 704
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be85944d5a81d9b20800000000000000
+      internalID: 3142695215484721387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 327
+        width: 219
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb485731acb851600800000000000000
+      internalID: 438410238764614846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_24
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 647
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f69076cd1f2a5d0800000000000000
+      internalID: -3052611668480004332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_25
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 327
+        width: 304
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4651e43b9a7412930800000000000000
+      internalID: 4116650328576628068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_26
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 327
+        width: 281
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc247ea95612afc0800000000000000
+      internalID: -3485198587196592952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 443
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ca8689ba727c150800000000000000
+      internalID: 5892722255387470894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_28
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 458
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411ad8cf1f293c430800000000000000
+      internalID: 3802044078452744468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 439
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571257e78689d7920800000000000000
+      internalID: 2989713302209503605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 426
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03db784219d7355d0800000000000000
+      internalID: -3074976058227311312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 427
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7fc4d26a9a0e660800000000000000
+      internalID: 7413111517841520561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 421
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720a788ec3345a570800000000000000
+      internalID: 8477255802473127975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 384
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bc361f29be8a290800000000000000
+      internalID: -7878788531737081054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 327
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9076a6f3558fd2510800000000000000
+      internalID: 1526148893768312585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 389
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dcef8b9a3d3e430800000000000000
+      internalID: 3811122435592211758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_36
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 370
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facbb7bb9220445d0800000000000000
+      internalID: -3079333866952213329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 371
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3402ed210661f1fd0800000000000000
+      internalID: -2369150277084372925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 341
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1a31b59c9d869c0800000000000000
+      internalID: -3933654815668461132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_39
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 354
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de97fc2f057dd6b0800000000000000
+      internalID: -5269927280914227503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_40
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 252
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e799b23c909d0930800000000000000
+      internalID: 4111101035399452641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 186
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a06e91ef1a54d20800000000000000
+      internalID: 3262191617828063768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_42
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 135
+        width: 56
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e9381a6a87c2760800000000000000
+      internalID: 7434449741951508023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_43
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 187
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930e99dd9dd8b8770800000000000000
+      internalID: 8614134679141474361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_44
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 173
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5146f9d0e564c5f30800000000000000
+      internalID: 4565601492016260117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_45
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 163
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b00732ec82b3da0800000000000000
+      internalID: -5964128415699170554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_46
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 176
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e65f67fe69bdc380800000000000000
+      internalID: -8949292998266497306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_47
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 161
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685a1b030086ff1a0800000000000000
+      internalID: -6773580964515699322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deda3ec7a3aa2dab0800000000000000
+      internalID: -4984734669365596691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 124
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b19e767b889aa70800000000000000
+      internalID: 8838746064995031934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_50
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 117
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d48b189864c80470800000000000000
+      internalID: 8361148661720909012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_51
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 123
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0182d00e1c6ae1aa0800000000000000
+      internalID: -6188325486342625264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_52
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 149
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cf34a6ae6cce3b0800000000000000
+      internalID: -5481787936309248909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 122
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cc6fb0743334200800000000000000
+      internalID: 163030391751887968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_54
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 112
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870a007d2c948190800000000000000
+      internalID: -7961066522317027449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_55
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 135
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013fb269001a7f400800000000000000
+      internalID: 357931719290778384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_56
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 148
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2799594f25327ca20800000000000000
+      internalID: 3082471309156129138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_57
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 128
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4d70bf6dbd63700800000000000000
+      internalID: 519844523388949753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_58
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 32
+        width: 187
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b726ec3c9ed49a80800000000000000
+      internalID: -8460893037304338509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_59
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 142
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cc93abeb75891b0800000000000000
+      internalID: -5649669255856534395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_60
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 121
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5dba3685d6f8d60800000000000000
+      internalID: 7894648898200524230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_61
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 116
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0c306ec4fa944d0800000000000000
+      internalID: -3149793719557570309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_62
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 123
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563754f48ba9ef9f0800000000000000
+      internalID: -432738397786377371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_63
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 122
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cadfb6c3ae4e0f0800000000000000
+      internalID: -1088487664686093281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_64
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 123
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80797872679c8b1b0800000000000000
+      internalID: -5640537023975024888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_65
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 123
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946a976dd33bac6e0800000000000000
+      internalID: -1816442421517900215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 186
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ecb9010e73be510800000000000000
+      internalID: 1579417529814339123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_67
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 32
+        width: 187
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e129df17056f68fc0800000000000000
+      internalID: -3492833635608980962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_68
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a55b0b745af08a0800000000000000
+      internalID: -6336664423361062245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_69
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 108
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e59cc45ea3b1d50800000000000000
+      internalID: 6709020826408672877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_70
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 98
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fd5baaee4a5cf50800000000000000
+      internalID: 6901103348988370712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_71
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a53a3a74f1187680800000000000000
+      internalID: -8757229733701601879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_72
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 31
+        width: 187
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a969645147f28e0800000000000000
+      internalID: -1716025298277459406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_73
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 108
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8319bad130aded190800000000000000
+      internalID: -7935665786462695112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_74
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 99
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a02dbbd857f9d530800000000000000
+      internalID: 3880404514972180644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explore_75
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 99
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc63c03b7fa5f1b0800000000000000
+      internalID: -5623395616068244264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6716e074f2da2ec4687cdbeb7d319ea0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Explore_0: 6802500561530761227
+      Explore_1: -8613110564216952276
+      Explore_10: -2169795160145005967
+      Explore_11: 2596970392295419743
+      Explore_12: -1812013681552004471
+      Explore_13: 1040171385389821242
+      Explore_14: 1027799291039397103
+      Explore_15: 4870430474698811242
+      Explore_16: 9178234200479629855
+      Explore_17: 2318209160605728275
+      Explore_18: -1236281857797333309
+      Explore_19: -59274640843376766
+      Explore_2: 49201827233551842
+      Explore_20: -5770390435923722146
+      Explore_21: -1294511020546423546
+      Explore_22: 3142695215484721387
+      Explore_23: 438410238764614846
+      Explore_24: -3052611668480004332
+      Explore_25: 4116650328576628068
+      Explore_26: -3485198587196592952
+      Explore_27: 5892722255387470894
+      Explore_28: 3802044078452744468
+      Explore_29: 2989713302209503605
+      Explore_3: 5293269314128825402
+      Explore_30: -3074976058227311312
+      Explore_31: 7413111517841520561
+      Explore_32: 8477255802473127975
+      Explore_33: -7878788531737081054
+      Explore_34: 1526148893768312585
+      Explore_35: 3811122435592211758
+      Explore_36: -3079333866952213329
+      Explore_37: -2369150277084372925
+      Explore_38: -3933654815668461132
+      Explore_39: -5269927280914227503
+      Explore_4: -1726767326889348771
+      Explore_40: 4111101035399452641
+      Explore_41: 3262191617828063768
+      Explore_42: 7434449741951508023
+      Explore_43: 8614134679141474361
+      Explore_44: 4565601492016260117
+      Explore_45: -5964128415699170554
+      Explore_46: -8949292998266497306
+      Explore_47: -6773580964515699322
+      Explore_48: -4984734669365596691
+      Explore_49: 8838746064995031934
+      Explore_5: -4182666575798464572
+      Explore_50: 8361148661720909012
+      Explore_51: -6188325486342625264
+      Explore_52: -5481787936309248909
+      Explore_53: 163030391751887968
+      Explore_54: -7961066522317027449
+      Explore_55: 357931719290778384
+      Explore_56: 3082471309156129138
+      Explore_57: 519844523388949753
+      Explore_58: -8460893037304338509
+      Explore_59: -5649669255856534395
+      Explore_6: -6694833610065918106
+      Explore_60: 7894648898200524230
+      Explore_61: -3149793719557570309
+      Explore_62: -432738397786377371
+      Explore_63: -1088487664686093281
+      Explore_64: -5640537023975024888
+      Explore_65: -1816442421517900215
+      Explore_66: 1579417529814339123
+      Explore_67: -3492833635608980962
+      Explore_68: -6336664423361062245
+      Explore_69: 6709020826408672877
+      Explore_7: -2785641511808734346
+      Explore_70: 6901103348988370712
+      Explore_71: -8757229733701601879
+      Explore_72: -1716025298277459406
+      Explore_73: -7935665786462695112
+      Explore_74: 3880404514972180644
+      Explore_75: -5623395616068244264
+      Explore_8: 3785532739750351667
+      Explore_9: 6422417649560363217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

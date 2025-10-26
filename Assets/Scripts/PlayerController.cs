@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +16,9 @@ public class Player01Controller : MonoBehaviour
 
     [Header("UI HP Bar")]
     [SerializeField] private Image HP;
+
+    [SerializeField] private GameOverManager gameOverManager;
+
 
     [Header("Attack Settings")]
     [SerializeField] private float attackRange = 1.5f;
@@ -123,13 +127,36 @@ public class Player01Controller : MonoBehaviour
 
     private void Die()
     {
+        if (isDead) return; // tránh gọi 2 lần
         isDead = true;
+
         rb.linearVelocity = Vector2.zero;
         animator.SetTrigger("Die");
         GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
-        Debug.Log("Player Died!");
+
+        UnityEngine.Debug.Log("Player Died!");
+
+        // 🧠 Gọi màn Game Over
+        if (gameOverManager != null)
+        {
+            // Bật Game Over UI và dừng thời gian
+            gameOverManager.ShowGameOver();
+        }
+        else
+        {
+            Debug.LogWarning("GameOverManager chưa được gán trong Inspector!");
+        }
+
+        // Không cần tắt script ngay để đảm bảo animator còn hoạt động
+        // Nếu muốn, bạn có thể tắt sau vài giây:
+        // Invoke(nameof(DisableController), 1.5f);
     }
+
+    private void DisableController()
+    {
+        this.enabled = false;
+    }
+
 
 
     public void DealDamage()

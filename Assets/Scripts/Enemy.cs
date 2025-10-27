@@ -14,9 +14,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Image hpBar;
 
     [Header("Combat Settings")]
-    [SerializeField] private float attackCooldown = 1.2f;  
-    [SerializeField] private float knockbackForce = 6f;   
-    [SerializeField] private float stunDuration = 0.4f;    
+    [SerializeField] private float attackCooldown = 1.2f;
+    [SerializeField] private float knockbackForce = 6f;
+    [SerializeField] private float stunDuration = 0.4f;
+    [SerializeField] private float dieAnimDuration = 1.2f; 
 
     private float currentHp;
     private float nextAttackTime = 0f;
@@ -29,12 +30,14 @@ public class Enemy : MonoBehaviour
     private Animator anim;
     private Transform player;
     private Rigidbody2D rb;
+    private Collider2D col;
 
     protected virtual void Start()
     {
         currentHp = maxHp;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
         startPos = transform.position;
 
         if (hpBar != null)
@@ -43,12 +46,9 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        if (isDead || isStunned) return; 
-
+        if (isDead || isStunned) return;
         DetectPlayer();
-
         if (isAttacking) return;
-
         Move();
     }
 
@@ -61,7 +61,6 @@ public class Enemy : MonoBehaviour
             player = hit.transform;
             FacePlayer();
 
-          
             if (Time.time >= nextAttackTime && !isAttacking)
             {
                 isAttacking = true;
@@ -132,7 +131,6 @@ public class Enemy : MonoBehaviour
                 player.TakeHit(damagePerHit, transform.position);
             }
         }
-
         Invoke(nameof(ResetAttack), 0.3f);
     }
 
@@ -149,15 +147,13 @@ public class Enemy : MonoBehaviour
         currentHp = Mathf.Max(currentHp, 0);
         Debug.Log($"Enemy took {damage} damage! HP: {currentHp}/{maxHp}");
 
-     
         if (rb != null)
         {
-            isStunned = true; 
+            isStunned = true;
             float knockDir = (player != null && player.position.x < transform.position.x) ? 1 : -1;
             rb.linearVelocity = Vector2.zero;
             rb.AddForce(new Vector2(knockDir * knockbackForce, 3f), ForceMode2D.Impulse);
-
-            Invoke(nameof(EndStun), stunDuration); 
+            Invoke(nameof(EndStun), stunDuration);
         }
 
         if (currentHp <= 0)
@@ -173,11 +169,23 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        if (isDead) return;
+
         isDead = true;
         isAttacking = false;
-        anim.SetTrigger("Die");
+        isStunned = false;
+
+        
+        if (rb != null) rb.linearVelocity = Vector2.zero;
+        if (col != null) col.enabled = false;
+
+       
+        anim.ResetTrigger("Attack");
+        anim.SetTrigger("EnemyDie");
         Debug.Log("Enemy Died!");
-        Destroy(gameObject, 1f);
+
+        
+        Destroy(gameObject, dieAnimDuration);
     }
 
     private void OnDrawGizmosSelected()

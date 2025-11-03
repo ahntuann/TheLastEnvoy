@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 942b82cb2fcea65499c15b5dbafb7790
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1195213038198355463
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_0"
+  - first:
+      213: -4356353543233714198
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_1"
+  - first:
+      213: 3276371948142177735
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_2"
+  - first:
+      213: -3953599641877630500
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_3"
+  - first:
+      213: 2516114444779427588
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_4"
+  - first:
+      213: -2270550158826512632
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_5"
+  - first:
+      213: 3258853838463550315
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_6"
+  - first:
+      213: -6930614309080884966
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_7"
+  - first:
+      213: -6056441314548644940
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_8"
+  - first:
+      213: 2156452938147482888
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_9"
+  - first:
+      213: 4340424352149965299
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_10"
+  - first:
+      213: -4644467247092034380
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_11"
+  - first:
+      213: -440790307498371121
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_12"
+  - first:
+      213: -6154532198977490485
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_13"
+  - first:
+      213: 1811532599535652256
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_14"
+  - first:
+      213: -5523630561259144623
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_15"
+  - first:
+      213: 2971404241631226584
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_16"
+  - first:
+      213: 6321027935329754243
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_17"
+  - first:
+      213: -8624667298277364365
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_18"
+  - first:
+      213: -9039035700547763472
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_19"
+  - first:
+      213: -576038651901311132
+    second: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_20"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_1"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 336
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae74a8b888f1b83c0800000000000000
+      internalID: -4356353543233714198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_2"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 336
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cda1198de2087d20800000000000000
+      internalID: 3276371948142177735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_8"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 210
+        width: 61
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3045b76b233fba0800000000000000
+      internalID: -6056441314548644940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_9"
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 210
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dc02995824ded10800000000000000
+      internalID: 2156452938147482888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_10"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 211
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f98a54a3f84c3c30800000000000000
+      internalID: 4340424352149965299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_11"
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 210
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4942e65a98b8fb0800000000000000
+      internalID: -4644467247092034380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_12"
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 210
+        width: 79
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7df1dfc8ff1e9f0800000000000000
+      internalID: -440790307498371121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_14"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adcc562d4bd32910800000000000000
+      internalID: 1811532599535652256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_16"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 85
+        width: 61
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daa4822a6c8c3920800000000000000
+      internalID: 2971404241631226584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_17"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 85
+        width: 61
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c96acba6dc8b750800000000000000
+      internalID: 6321027935329754243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_18"
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 85
+        width: 60
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37def34a9c60f4880800000000000000
+      internalID: -8624667298277364365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf9990e4ac028f44c96e1fa6ff45014d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_0": 1195213038198355463
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_1": -4356353543233714198
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_10": 4340424352149965299
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_11": -4644467247092034380
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_12": -440790307498371121
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_13": -6154532198977490485
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_14": 1811532599535652256
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_15": -5523630561259144623
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_16": 2971404241631226584
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_17": 6321027935329754243
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_18": -8624667298277364365
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_19": -9039035700547763472
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_2": 3276371948142177735
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_20": -576038651901311132
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_3": -3953599641877630500
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_4": 2516114444779427588
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_5": -2270550158826512632
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_6": 3258853838463550315
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_7": -6930614309080884966
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_8": -6056441314548644940
+      "Quan_\u0111\u1EA1i_th\u1EA7n.881Z-removebg-preview_9": 2156452938147482888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

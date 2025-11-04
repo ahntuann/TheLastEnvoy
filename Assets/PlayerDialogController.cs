@@ -104,7 +104,7 @@ public class PlayerDialogController : MonoBehaviour
 
         if (dialogText != null)
         {
-            dialogText.text = text;
+            dialogText.text = "Main: " +text;
             Debug.Log($"DialogText updated: {text}");
         }
 
@@ -118,7 +118,7 @@ public class PlayerDialogController : MonoBehaviour
 
         string normalizedText = text.Trim().ToLower();
 
-        if (normalizedText == "ok" || normalizedText == "oke" ||
+        if (normalizedText == "Không" || normalizedText == "Bye bye" ||
             normalizedText == "được" || normalizedText == "tạm biệt")
         {
             Debug.Log("Keyword detected, loading Bad_ending...");

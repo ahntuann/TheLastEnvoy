@@ -1,0 +1,2288 @@
+fileFormatVersion: 2
+guid: 6125b6118aa460b4e98a267dd963bbd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7458996988963416614
+    second: enemyDie_0
+  - first:
+      213: -4613273014341186285
+    second: enemyDie_1
+  - first:
+      213: -1647056275873889315
+    second: enemyDie_2
+  - first:
+      213: 2898356399700412121
+    second: enemyDie_3
+  - first:
+      213: -2699307443536861492
+    second: enemyDie_4
+  - first:
+      213: -7135660384548868871
+    second: enemyDie_5
+  - first:
+      213: -4877738731843223161
+    second: enemyDie_6
+  - first:
+      213: -5937550304439257297
+    second: enemyDie_7
+  - first:
+      213: -5334727484763565490
+    second: enemyDie_8
+  - first:
+      213: -5640549090577889409
+    second: enemyDie_9
+  - first:
+      213: 8086958559816447141
+    second: enemyDie_10
+  - first:
+      213: -4054666784940704809
+    second: enemyDie_11
+  - first:
+      213: 6694447476869752838
+    second: enemyDie_12
+  - first:
+      213: 3397962257049189885
+    second: enemyDie_13
+  - first:
+      213: 360241849919536060
+    second: enemyDie_14
+  - first:
+      213: 1037976614351253418
+    second: enemyDie_15
+  - first:
+      213: 1404309597639699810
+    second: enemyDie_16
+  - first:
+      213: 7063439282879600535
+    second: enemyDie_17
+  - first:
+      213: 3173415675768470076
+    second: enemyDie_18
+  - first:
+      213: -7807429108969040043
+    second: enemyDie_19
+  - first:
+      213: -4318181639959061485
+    second: enemyDie_20
+  - first:
+      213: 7316531298592218809
+    second: enemyDie_21
+  - first:
+      213: 2336603657116665145
+    second: enemyDie_22
+  - first:
+      213: -2277956564560636444
+    second: enemyDie_23
+  - first:
+      213: -3876922090022847920
+    second: enemyDie_24
+  - first:
+      213: 7273127479491697638
+    second: enemyDie_25
+  - first:
+      213: -3732419449539925517
+    second: enemyDie_26
+  - first:
+      213: 2038698325687538229
+    second: enemyDie_27
+  - first:
+      213: -3069249727335413098
+    second: enemyDie_28
+  - first:
+      213: -197405572315117511
+    second: enemyDie_29
+  - first:
+      213: 3730299697701170672
+    second: enemyDie_30
+  - first:
+      213: 3992391980061166661
+    second: enemyDie_31
+  - first:
+      213: -2364309761137267001
+    second: enemyDie_32
+  - first:
+      213: -5558523306348618944
+    second: enemyDie_33
+  - first:
+      213: -7270720804606280593
+    second: enemyDie_34
+  - first:
+      213: -3558741643539948299
+    second: enemyDie_35
+  - first:
+      213: -6668158691841379304
+    second: enemyDie_36
+  - first:
+      213: 640380852900008990
+    second: enemyDie_37
+  - first:
+      213: 2630321552305686549
+    second: enemyDie_38
+  - first:
+      213: 7725950063088412234
+    second: enemyDie_39
+  - first:
+      213: 9113959232172861162
+    second: enemyDie_40
+  - first:
+      213: 923902137406242382
+    second: enemyDie_41
+  - first:
+      213: -1083696643260840808
+    second: enemyDie_42
+  - first:
+      213: -5411597755917472129
+    second: enemyDie_43
+  - first:
+      213: -3441895837698299772
+    second: enemyDie_44
+  - first:
+      213: -5380538211504667619
+    second: enemyDie_45
+  - first:
+      213: 475779152439373941
+    second: enemyDie_46
+  - first:
+      213: -750958582162034237
+    second: enemyDie_47
+  - first:
+      213: -6452387779167903259
+    second: enemyDie_48
+  - first:
+      213: 8853788410137233236
+    second: enemyDie_49
+  - first:
+      213: -8215511585939773626
+    second: enemyDie_50
+  - first:
+      213: 3477256342105505743
+    second: enemyDie_51
+  - first:
+      213: -4621399392758213064
+    second: enemyDie_52
+  - first:
+      213: 7069924613840493956
+    second: enemyDie_53
+  - first:
+      213: -241900925762624834
+    second: enemyDie_54
+  - first:
+      213: 896694890325665173
+    second: enemyDie_55
+  - first:
+      213: 5015452990301888381
+    second: enemyDie_56
+  - first:
+      213: -2023842972055762750
+    second: enemyDie_57
+  - first:
+      213: 5800957969635089206
+    second: enemyDie_58
+  - first:
+      213: 7863552504284322891
+    second: enemyDie_59
+  - first:
+      213: -7400766700272788227
+    second: enemyDie_60
+  - first:
+      213: -2276869302123504124
+    second: enemyDie_61
+  - first:
+      213: -3593283156768873637
+    second: enemyDie_62
+  - first:
+      213: -5854156139029362078
+    second: enemyDie_63
+  - first:
+      213: 1806753168616246590
+    second: enemyDie_64
+  - first:
+      213: 1253116661578931435
+    second: enemyDie_65
+  - first:
+      213: -4067379313190271144
+    second: enemyDie_66
+  - first:
+      213: -2869989513464039271
+    second: enemyDie_67
+  - first:
+      213: -4410751765914994723
+    second: enemyDie_68
+  - first:
+      213: 2298884209377020984
+    second: enemyDie_69
+  - first:
+      213: -8772086298791003027
+    second: enemyDie_70
+  - first:
+      213: -1039516151248658258
+    second: enemyDie_71
+  - first:
+      213: -6420689746003713765
+    second: enemyDie_72
+  - first:
+      213: -8686242150279338460
+    second: enemyDie_73
+  - first:
+      213: -4681635831362934263
+    second: enemyDie_74
+  - first:
+      213: 852661225981440250
+    second: enemyDie_75
+  - first:
+      213: -2163163290530950551
+    second: enemyDie_76
+  - first:
+      213: -1660437051342067178
+    second: enemyDie_77
+  - first:
+      213: 8855265988290172350
+    second: enemyDie_78
+  - first:
+      213: -7258931706648066745
+    second: enemyDie_79
+  - first:
+      213: -4934505673072669459
+    second: enemyDie_80
+  - first:
+      213: -2944386376430156834
+    second: enemyDie_81
+  - first:
+      213: 8234105510427869070
+    second: enemyDie_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemyDie_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 493
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a6fd3fd3ea38760800000000000000
+      internalID: 7458996988963416614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 493
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d4c48b2ac5affb0800000000000000
+      internalID: -4613273014341186285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 493
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd385772b0b7429e0800000000000000
+      internalID: -1647056275873889315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 493
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d68f941ac7093820800000000000000
+      internalID: 2898356399700412121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 493
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6ea608e222a8ad0800000000000000
+      internalID: -2699307443536861492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc2325cfaa09fc90800000000000000
+      internalID: -7135660384548868871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 493
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781025d777ace4cb0800000000000000
+      internalID: -4877738731843223161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 493
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27b2e3e475999da0800000000000000
+      internalID: -5937550304439257297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 493
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4297210e9d37f5b0800000000000000
+      internalID: -5334727484763565490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 493
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77c3fdac7eb8b1b0800000000000000
+      internalID: -5640549090577889409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 493
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4f92fa6f5aa3070800000000000000
+      internalID: 8086958559816447141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 493
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbb809aa0eeab7c0800000000000000
+      internalID: -4054666784940704809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 493
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608e452f28477ec50800000000000000
+      internalID: 6694447476869752838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 493
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdf99b6bacf72f20800000000000000
+      internalID: 3397962257049189885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_14
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 493
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbfea9cd06dff400800000000000000
+      internalID: 360241849919536060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 262
+        width: 158
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafa1973b32a76e00800000000000000
+      internalID: 1037976614351253418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 261
+        width: 151
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d6cf1832c1d7310800000000000000
+      internalID: 1404309597639699810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_17
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 345
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7971494aa90660260800000000000000
+      internalID: 7063439282879600535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 334
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3af5de5ebc3a0c20800000000000000
+      internalID: 3173415675768470076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_19
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 262
+        width: 47
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5571bd6479076a390800000000000000
+      internalID: -7807429108969040043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 324
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c50aa5dacb214c0800000000000000
+      internalID: -4318181639959061485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 335
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bedd90937a898560800000000000000
+      internalID: 7316531298592218809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_22
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 331
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935415375a84d6020800000000000000
+      internalID: 2336603657116665145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_23
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 268
+        width: 82
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5189bd2921360e0800000000000000
+      internalID: -2277956564560636444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_24
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 317
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ab25266e7623ac0800000000000000
+      internalID: -3876922090022847920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_25
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 324
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb1c3d68e65fe460800000000000000
+      internalID: 7273127479491697638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 321
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9e96d2948c33cc0800000000000000
+      internalID: -3732419449539925517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_27
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 312
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5321ac26359ea4c10800000000000000
+      internalID: 2038698325687538229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_28
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 313
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a453372a5d765d0800000000000000
+      internalID: -3069249727335413098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_29
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 306
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93889798daca24df0800000000000000
+      internalID: -197405572315117511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_30
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 317
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fda933afcfa4c330800000000000000
+      internalID: 3730299697701170672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_31
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 309
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c0aaf6a53d76730800000000000000
+      internalID: 3992391980061166661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_32
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 289
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ceac648cc8403fd0800000000000000
+      internalID: -2364309761137267001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_33
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 310
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b5c51d0882cd2b0800000000000000
+      internalID: -5558523306348618944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_34
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 265
+        width: 156
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c766c33f5391b90800000000000000
+      internalID: -7270720804606280593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_35
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 271
+        width: 149
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc5969845fcc9ec0800000000000000
+      internalID: -3558741643539948299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 239
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8147cdacff0f573a0800000000000000
+      internalID: -6668158691841379304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 239
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14111a2ef613e800800000000000000
+      internalID: 640380852900008990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 239
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5180c3a0487c08420800000000000000
+      internalID: 2630321552305686549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 239
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46aac606a6183b60800000000000000
+      internalID: 7725950063088412234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_40
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 239
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae62e0342a94b7e70800000000000000
+      internalID: 9113959232172861162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_41
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 239
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eb253591c52dc00800000000000000
+      internalID: 923902137406242382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 238
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894872605afe5f0f0800000000000000
+      internalID: -1083696643260840808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 238
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7eec3b438426e4b0800000000000000
+      internalID: -5411597755917472129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_44
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 239
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488e818b8fdeb30d0800000000000000
+      internalID: -3441895837698299772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_45
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 239
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1449d2010d7455b0800000000000000
+      internalID: -5380538211504667619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 238
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5707fac4e9e4a9600800000000000000
+      internalID: 475779152439373941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_47
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 239
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c17335f52f0495f0800000000000000
+      internalID: -750958582162034237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_48
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 238
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e120a540838476a0800000000000000
+      internalID: -6452387779167903259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_49
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 238
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45743be46a9feda70800000000000000
+      internalID: 8853788410137233236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_50
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64724ff7db3acfd80800000000000000
+      internalID: -8215511585939773626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_51
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 239
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf3c284832b14030800000000000000
+      internalID: 3477256342105505743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_52
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 239
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836d07dccbd7ddfb0800000000000000
+      internalID: -4621399392758213064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_53
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 239
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dd0cc6afa6d1260800000000000000
+      internalID: 7069924613840493956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_54
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 239
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2a411c36894acf0800000000000000
+      internalID: -241900925762624834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_55
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 238
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595e4c97043b17c00800000000000000
+      internalID: 896694890325665173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_56
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 239
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f5d92fbe77a9540800000000000000
+      internalID: 5015452990301888381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_57
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 239
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c802792a8dd9e3e0800000000000000
+      internalID: -2023842972055762750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 239
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b1211e984218050800000000000000
+      internalID: 5800957969635089206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_59
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 239
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c108af653f02d60800000000000000
+      internalID: 7863552504284322891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_60
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 239
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc53b4a5e13b4990800000000000000
+      internalID: -7400766700272788227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_61
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 239
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40edfeede6fe660e0800000000000000
+      internalID: -2276869302123504124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_62
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 239
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53a567c108122ec0800000000000000
+      internalID: -3593283156768873637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_63
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 239
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a8b79120cd1cea0800000000000000
+      internalID: -5854156139029362078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_64
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 239
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dce2c2f60e21910800000000000000
+      internalID: 1806753168616246590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_65
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 239
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec1983e6f6f36110800000000000000
+      internalID: 1253116661578931435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_66
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 239
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85785868014cd87c0800000000000000
+      internalID: -4067379313190271144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_67
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 239
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99831ec4ebfbb28d0800000000000000
+      internalID: -2869989513464039271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_68
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 239
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7b53853acd9c2c0800000000000000
+      internalID: -4410751765914994723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_69
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 239
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c0ca7220747ef10800000000000000
+      internalID: 2298884209377020984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_70
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 239
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cbd7ddcf9434680800000000000000
+      internalID: -8772086298791003027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_71
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 239
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0ea8a6195e291f0800000000000000
+      internalID: -1039516151248658258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_72
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 239
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11a47cb1b025e6a0800000000000000
+      internalID: -6420689746003713765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_73
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 239
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426239739c4447780800000000000000
+      internalID: -8686242150279338460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_74
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 239
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a2fd7040d770fb0800000000000000
+      internalID: -4681635831362934263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_75
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 239
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af07f501ed245db00800000000000000
+      internalID: 852661225981440250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_76
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 239
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962dcbcb276eaf1e0800000000000000
+      internalID: -2163163290530950551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_77
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 134
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61aebd69c41f4f8e0800000000000000
+      internalID: -1660437051342067178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_78
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 112
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb552a7cf7934ea70800000000000000
+      internalID: 8855265988290172350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_79
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7450c608218134b90800000000000000
+      internalID: -7258931706648066745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_80
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 56
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec8a560c3d158bb0800000000000000
+      internalID: -4934505673072669459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_81
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3816fc0307327d0800000000000000
+      internalID: -2944386376430156834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyDie_82
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 76
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fb328e55b654270800000000000000
+      internalID: 8234105510427869070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemyDie_0: 7458996988963416614
+      enemyDie_1: -4613273014341186285
+      enemyDie_10: 8086958559816447141
+      enemyDie_11: -4054666784940704809
+      enemyDie_12: 6694447476869752838
+      enemyDie_13: 3397962257049189885
+      enemyDie_14: 360241849919536060
+      enemyDie_15: 1037976614351253418
+      enemyDie_16: 1404309597639699810
+      enemyDie_17: 7063439282879600535
+      enemyDie_18: 3173415675768470076
+      enemyDie_19: -7807429108969040043
+      enemyDie_2: -1647056275873889315
+      enemyDie_20: -4318181639959061485
+      enemyDie_21: 7316531298592218809
+      enemyDie_22: 2336603657116665145
+      enemyDie_23: -2277956564560636444
+      enemyDie_24: -3876922090022847920
+      enemyDie_25: 7273127479491697638
+      enemyDie_26: -3732419449539925517
+      enemyDie_27: 2038698325687538229
+      enemyDie_28: -3069249727335413098
+      enemyDie_29: -197405572315117511
+      enemyDie_3: 2898356399700412121
+      enemyDie_30: 3730299697701170672
+      enemyDie_31: 3992391980061166661
+      enemyDie_32: -2364309761137267001
+      enemyDie_33: -5558523306348618944
+      enemyDie_34: -7270720804606280593
+      enemyDie_35: -3558741643539948299
+      enemyDie_36: -6668158691841379304
+      enemyDie_37: 640380852900008990
+      enemyDie_38: 2630321552305686549
+      enemyDie_39: 7725950063088412234
+      enemyDie_4: -2699307443536861492
+      enemyDie_40: 9113959232172861162
+      enemyDie_41: 923902137406242382
+      enemyDie_42: -1083696643260840808
+      enemyDie_43: -5411597755917472129
+      enemyDie_44: -3441895837698299772
+      enemyDie_45: -5380538211504667619
+      enemyDie_46: 475779152439373941
+      enemyDie_47: -750958582162034237
+      enemyDie_48: -6452387779167903259
+      enemyDie_49: 8853788410137233236
+      enemyDie_5: -7135660384548868871
+      enemyDie_50: -8215511585939773626
+      enemyDie_51: 3477256342105505743
+      enemyDie_52: -4621399392758213064
+      enemyDie_53: 7069924613840493956
+      enemyDie_54: -241900925762624834
+      enemyDie_55: 896694890325665173
+      enemyDie_56: 5015452990301888381
+      enemyDie_57: -2023842972055762750
+      enemyDie_58: 5800957969635089206
+      enemyDie_59: 7863552504284322891
+      enemyDie_6: -4877738731843223161
+      enemyDie_60: -7400766700272788227
+      enemyDie_61: -2276869302123504124
+      enemyDie_62: -3593283156768873637
+      enemyDie_63: -5854156139029362078
+      enemyDie_64: 1806753168616246590
+      enemyDie_65: 1253116661578931435
+      enemyDie_66: -4067379313190271144
+      enemyDie_67: -2869989513464039271
+      enemyDie_68: -4410751765914994723
+      enemyDie_69: 2298884209377020984
+      enemyDie_7: -5937550304439257297
+      enemyDie_70: -8772086298791003027
+      enemyDie_71: -1039516151248658258
+      enemyDie_72: -6420689746003713765
+      enemyDie_73: -8686242150279338460
+      enemyDie_74: -4681635831362934263
+      enemyDie_75: 852661225981440250
+      enemyDie_76: -2163163290530950551
+      enemyDie_77: -1660437051342067178
+      enemyDie_78: 8855265988290172350
+      enemyDie_79: -7258931706648066745
+      enemyDie_8: -5334727484763565490
+      enemyDie_80: -4934505673072669459
+      enemyDie_81: -2944386376430156834
+      enemyDie_82: 8234105510427869070
+      enemyDie_9: -5640549090577889409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

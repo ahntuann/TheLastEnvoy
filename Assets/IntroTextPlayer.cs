@@ -63,7 +63,7 @@ public class IntroTextPlayer : MonoBehaviour
         yield return new WaitForSeconds(delayBetweenLines);
 
         // [Dòng 4]
-        yield return StartCoroutine(ShowLine("Giữa đêm mưa xối xả, một người mang “mật chiếu” bí ẩn\nđang lẩn trốn trong những ngóc ngách của kinh thành.", 1f));
+        yield return StartCoroutine(ShowLine("Giữa đêm mưa xối xả, một người bí ẩn\nđang lẩn trốn trong những ngóc ngách của kinh thành.", 1f));
         yield return new WaitForSeconds(delayBetweenLines);
 
         // [Dòng 5 – chữ to hơn, nhạc trầm dần]
@@ -71,12 +71,13 @@ public class IntroTextPlayer : MonoBehaviour
             StartCoroutine(FadeOutMusic(backgroundAudio, 4f));
 
         introText.fontSize += 10; // chữ to hơn chút
-        yield return StartCoroutine(ShowLine("Hắn được gọi là — <b>SỨ GIẢ</b>.\nVà đêm nay, vận mệnh triều đại bắt đầu đổi thay…", 1f));
+        yield return StartCoroutine(ShowLine("Nơi hắn muốn đến là <b>Mật thất</b> nơi có người đang đợi hắn...\nVà đêm nay, vận mệnh của đất nước liệu có đổi thay…", 2f));
 
         // Kết thúc – chuyển cảnh nếu muốn
-        // yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(3f);
         // SceneManager.LoadScene("MainScene");
         SceneManager.LoadScene("MatThat");
+
     }
 
     IEnumerator ShowLine(string text, float holdTime)

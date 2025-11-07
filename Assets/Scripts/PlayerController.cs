@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class Player01Controller : MonoBehaviour
 {
+    public bool isHiddenInGrass = false;
+    private bool isHidden = false;
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 15f;
@@ -28,7 +30,7 @@ public class Player01Controller : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
     private bool isGrounded;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
     private bool isTakingDamage = false;
     private bool isDead = false;
 
@@ -41,7 +43,28 @@ public class Player01Controller : MonoBehaviour
         if (HP != null)
             HP.fillAmount = 1f;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Grass"))
+        {
+            isHidden = true;
+            Debug.Log("Player đang ẩn trong bụi cỏ!");
+        }
+    }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Grass"))
+        {
+            isHidden = false;
+            Debug.Log("Player đã ra khỏi bụi cỏ!");
+        }
+    }
+
+    public bool IsHidden()
+    {
+        return isHidden;
+    }
     void Update()
     {
         if (isDead) return;
@@ -165,23 +188,29 @@ public class Player01Controller : MonoBehaviour
 
         foreach (Collider2D target in hits)
         {
-         
             Enemy enemy = target.GetComponent<Enemy>();
             if (enemy != null)
             {
                 enemy.TakeDamage(attackDamage);
-                continue; 
+                continue;
             }
 
-           
             Boss boss = target.GetComponent<Boss>();
             if (boss != null)
             {
                 boss.TakeDamage(attackDamage);
                 continue;
             }
+
+            Enemy2 enemy2 = target.GetComponent<Enemy2>();
+            if (enemy2 != null)
+            {
+                enemy2.TakeDamage(attackDamage);
+                continue;
+            }
         }
     }
+
 
 
     private void OnDrawGizmosSelected()

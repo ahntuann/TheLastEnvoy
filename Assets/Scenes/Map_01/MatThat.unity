@@ -1058,6 +1058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30cbfc51bc3ce4b4f92b4d73b35e5f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isHiddenInGrass: 0
   moveSpeed: 6
   jumpForce: 15
   groundLayer:
@@ -1072,6 +1073,7 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 0
+  isAttacking: 0
 --- !u!114 &1196811484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1980,8 +1982,8 @@ Transform:
   m_GameObject: {fileID: 1854216476}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.05, y: -0.47, z: 17.241879}
-  m_LocalScale: {x: 1.502, y: 1.502, z: 1.502}
+  m_LocalPosition: {x: 7.05, y: -0.24, z: 17.241879}
+  m_LocalScale: {x: 1.51702, y: 1.5770999, z: 1.502}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 262842254}
@@ -2289,7 +2291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintUI: {fileID: 564212877}
-  nextSceneName: Bed_end
+  nextSceneName: Map_02_LangGioThan
 --- !u!61 &2001202212
 BoxCollider2D:
   m_ObjectHideFlags: 0

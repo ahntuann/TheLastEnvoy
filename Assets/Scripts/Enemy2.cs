@@ -54,6 +54,7 @@ public class Enemy2 : MonoBehaviour
         Move();
     }
 
+
     void DetectPlayer()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, detectRange, playerLayer);
@@ -62,13 +63,12 @@ public class Enemy2 : MonoBehaviour
         {
             Player01Controller detectedPlayer = hit.GetComponent<Player01Controller>();
 
-            //// Nếu player đang ẩn trong bụi thì enemy bỏ qua
-            //if (detectedPlayer != null && detectedPlayer.IsHidden())
-            //{
-            //    isAttacking = false;
-            //    player = null;
-            //    return;
-            //}
+            if (detectedPlayer != null && detectedPlayer.IsHidden())
+            {
+                isAttacking = false;
+                player = null;
+                return;
+            }
 
             player = hit.transform;
             FacePlayer();
@@ -86,6 +86,7 @@ public class Enemy2 : MonoBehaviour
             movingRight = transform.localScale.x > 0;
         }
     }
+
 
     void FacePlayer()
     {
@@ -140,7 +141,7 @@ public class Enemy2 : MonoBehaviour
         if (hit != null)
         {
             Player01Controller player = hit.GetComponent<Player01Controller>();
-            //if (player != null && !player.IsHidden())
+            if (player != null && !player.IsHidden()) 
             {
                 player.TakeHit(damagePerHit, transform.position);
             }
@@ -148,6 +149,7 @@ public class Enemy2 : MonoBehaviour
 
         Invoke(nameof(ResetAttack), 0.3f);
     }
+
 
     private void ResetAttack()
     {

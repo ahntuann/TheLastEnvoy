@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class MerchantShopTrigger : MonoBehaviour
 {
@@ -54,5 +55,10 @@ public class MerchantShopTrigger : MonoBehaviour
             if (isShopOpen)
                 ToggleShop();
         }
+    }
+
+    internal void CloseShopFromButton()
+    {
+        throw new NotImplementedException();
     }
 }

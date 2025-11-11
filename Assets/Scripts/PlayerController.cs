@@ -20,7 +20,6 @@ public class Player01Controller : MonoBehaviour
     [Header("UI Settings")]
     [SerializeField] private Image HP;
     [SerializeField] private Text coinText; // Thêm UI hiển thị coin
-
     [SerializeField] private GameOverManager gameOverManager;
 
     [Header("Attack Settings")]
@@ -44,10 +43,8 @@ public class Player01Controller : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         currentHp = maxHp;
-
         if (HP != null)
             HP.fillAmount = 1f;
-
         UpdateCoinUI();
     }
 
@@ -109,7 +106,6 @@ public class Player01Controller : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
-
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
@@ -131,7 +127,6 @@ public class Player01Controller : MonoBehaviour
     {
         bool isRunning = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
         bool isJumping = !isGrounded;
-
         animator.SetBool("isRunning", isRunning);
         animator.SetBool("isJumping", isJumping);
     }
@@ -151,7 +146,6 @@ public class Player01Controller : MonoBehaviour
         float knockDir = Mathf.Sign(transform.position.x - attackerPosition.x);
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(new Vector2(knockDir * 4f, 2.5f), ForceMode2D.Impulse);
-
         Invoke(nameof(EndHurt), 0.4f);
 
         if (currentHp <= 0)
@@ -166,12 +160,11 @@ public class Player01Controller : MonoBehaviour
     private void Die()
     {
         if (isDead) return;
-        isDead = true;
 
+        isDead = true;
         rb.linearVelocity = Vector2.zero;
         animator.SetTrigger("Die");
         GetComponent<Collider2D>().enabled = false;
-
         Debug.Log("Player Died!");
 
         if (gameOverManager != null)
@@ -188,7 +181,6 @@ public class Player01Controller : MonoBehaviour
     public void DealDamage()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
-
         foreach (Collider2D target in hits)
         {
             Enemy enemy = target.GetComponent<Enemy>();
@@ -197,14 +189,12 @@ public class Player01Controller : MonoBehaviour
                 enemy.TakeDamage(attackDamage);
                 continue;
             }
-
             Boss boss = target.GetComponent<Boss>();
             if (boss != null)
             {
                 boss.TakeDamage(attackDamage);
                 continue;
             }
-
             Enemy2 enemy2 = target.GetComponent<Enemy2>();
             if (enemy2 != null)
             {
@@ -216,14 +206,13 @@ public class Player01Controller : MonoBehaviour
 
     // 🪙=================== COIN & POTION SYSTEM ===================🪙
     // Coin system
-    [Header("Coin Settings")]
-    public int coin = 0;
-
     public void AddCoin(int amount)
     {
-        coin += amount;
-        Debug.Log("Player nhận được " + amount + " coin. Tổng: " + coin);
+        coins += amount;
+        UpdateCoinUI();
+        Debug.Log("Player nhận được " + amount + " coin. Tổng: " + coins);
     }
+
     public bool SpendCoins(int amount)
     {
         if (coins >= amount)
@@ -241,8 +230,7 @@ public class Player01Controller : MonoBehaviour
 
     public void BuyHealthPotion()
     {
-        int price = 50;
-
+        int price = 20;
         if (SpendCoins(price))
         {
             currentHp = Mathf.Min(currentHp + potionHeal, maxHp);
@@ -261,7 +249,6 @@ public class Player01Controller : MonoBehaviour
         if (coinText != null)
             coinText.text = "Coins: " + coins;
     }
-
     // ===============================================================
 
     private void OnDrawGizmosSelected()
@@ -269,17 +256,15 @@ public class Player01Controller : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
+
     public void Heal(int amount)
     {
         if (isDead) return;
 
         currentHp += amount;
-        currentHp = Mathf.Min(currentHp, maxHp); 
-
+        currentHp = Mathf.Min(currentHp, maxHp);
         if (HP != null)
             HP.fillAmount = (float)currentHp / maxHp;
-
         Debug.Log($"Player hồi {amount} máu! HP hiện tại: {currentHp}/{maxHp}");
     }
-
 }

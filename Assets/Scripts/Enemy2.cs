@@ -54,7 +54,6 @@ public class Enemy2 : MonoBehaviour
         Move();
     }
 
-
     void DetectPlayer()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, detectRange, playerLayer);
@@ -63,6 +62,7 @@ public class Enemy2 : MonoBehaviour
         {
             Player01Controller detectedPlayer = hit.GetComponent<Player01Controller>();
 
+            // Nếu player đang ẩn trong bụi => enemy không phát hiện
             if (detectedPlayer != null && detectedPlayer.IsHidden())
             {
                 isAttacking = false;
@@ -86,7 +86,6 @@ public class Enemy2 : MonoBehaviour
             movingRight = transform.localScale.x > 0;
         }
     }
-
 
     void FacePlayer()
     {
@@ -141,7 +140,7 @@ public class Enemy2 : MonoBehaviour
         if (hit != null)
         {
             Player01Controller player = hit.GetComponent<Player01Controller>();
-            if (player != null && !player.IsHidden()) 
+            if (player != null && !player.IsHidden())
             {
                 player.TakeHit(damagePerHit, transform.position);
             }
@@ -149,7 +148,6 @@ public class Enemy2 : MonoBehaviour
 
         Invoke(nameof(ResetAttack), 0.3f);
     }
-
 
     private void ResetAttack()
     {
@@ -162,7 +160,7 @@ public class Enemy2 : MonoBehaviour
 
         currentHp -= damage;
         currentHp = Mathf.Max(currentHp, 0);
-        Debug.Log($"Enemy took {damage} damage! HP: {currentHp}/{maxHp}");
+        Debug.Log($"Enemy2 took {damage} damage! HP: {currentHp}/{maxHp}");
 
         // Hiển thị thanh máu khi bị đánh
         if (hpBar != null)
@@ -208,7 +206,18 @@ public class Enemy2 : MonoBehaviour
 
         anim.ResetTrigger("Attack");
         anim.SetTrigger("EnemyDie");
-        Debug.Log("Enemy Died!");
+        Debug.Log("Enemy2 Died!");
+
+        // 🪙 Thưởng coin cho player
+        Player01Controller player = FindAnyObjectByType<Player01Controller>();
+        if (player != null)
+        {
+            player.AddCoin(10);
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ Không tìm thấy Player để cộng coin!");
+        }
 
         Destroy(gameObject, dieAnimDuration);
     }

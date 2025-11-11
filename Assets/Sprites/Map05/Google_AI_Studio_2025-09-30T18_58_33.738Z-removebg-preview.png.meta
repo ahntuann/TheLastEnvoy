@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 9bfa4abbc7e11a34fbad54d2c6d8e756
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4014485182155943538
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_0
+  - first:
+      213: -5175940850489259744
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_1
+  - first:
+      213: -7582610251231069539
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_2
+  - first:
+      213: -5605745518143777617
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_3
+  - first:
+      213: -2124106365423458509
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_4
+  - first:
+      213: -2494587328623257729
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_5
+  - first:
+      213: -693052908254394133
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_6
+  - first:
+      213: -6694201998050557628
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_7
+  - first:
+      213: -497884292152347466
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_8
+  - first:
+      213: 719188621809990080
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_9
+  - first:
+      213: -4392084095077845010
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_10
+  - first:
+      213: -5287918511632055503
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_11
+  - first:
+      213: 3596555653753231185
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_12
+  - first:
+      213: 1938291019041815466
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_13
+  - first:
+      213: 4473159723874376140
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_14
+  - first:
+      213: 2180206104797175210
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_15
+  - first:
+      213: -2972069357807378299
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_16
+  - first:
+      213: -6333097729544405012
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_17
+  - first:
+      213: 4305948994940762905
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_18
+  - first:
+      213: 2139361956942956137
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_19
+  - first:
+      213: -8428204367831969353
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_20
+  - first:
+      213: -6216010371384194246
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_21
+  - first:
+      213: -6755018449177790324
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_22
+  - first:
+      213: -8835775319755732103
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_23
+  - first:
+      213: -8538027392999490245
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_24
+  - first:
+      213: -4637537602914632551
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_25
+  - first:
+      213: 3108102107491735120
+    second: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 254
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e6976e00156b730800000000000000
+      internalID: 4014485182155943538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 266
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0298724483d5b28b0800000000000000
+      internalID: -5175940850489259744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 144
+        width: 99
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9af221a62825c690800000000000000
+      internalID: -7582610251231069539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 230
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa45dc9d6246432b0800000000000000
+      internalID: -5605745518143777617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 230
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e9cfb388a582e0800000000000000
+      internalID: -2124106365423458509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 230
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f775830aa02716dd0800000000000000
+      internalID: -2494587328623257729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 230
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be802f84d08c166f0800000000000000
+      internalID: -693052908254394133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 225
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4418c7b00ca6913a0800000000000000
+      internalID: -6694201998050557628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 230
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4330bcfd82719f0800000000000000
+      internalID: -497884292152347466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 152
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9bc79bd321bf900800000000000000
+      internalID: 719188621809990080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 153
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7fd3929ce2c03c0800000000000000
+      internalID: -4392084095077845010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 119
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13385f8512a8d96b0800000000000000
+      internalID: -5287918511632055503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 119
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15752eccf4889e130800000000000000
+      internalID: 3596555653753231185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 119
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab315d896136ea10800000000000000
+      internalID: 1938291019041815466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 41
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9dd1da11bd31e30800000000000000
+      internalID: 4473159723874376140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadd29da6e5a14e10800000000000000
+      internalID: 2180206104797175210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 42
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58061107aa611c6d0800000000000000
+      internalID: -2972069357807378299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 42
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef3cae4b215c18a0800000000000000
+      internalID: -6333097729544405012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 85
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf4680ccdc1cb30800000000000000
+      internalID: 4305948994940762905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 68
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966c1917d5a80bd10800000000000000
+      internalID: 2139361956942956137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 60
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1daf038c0090b80800000000000000
+      internalID: -8428204367831969353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 42
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b4085408b4cb9a0800000000000000
+      internalID: -6216010371384194246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 48
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c883c85928a5142a0800000000000000
+      internalID: -6755018449177790324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 7
+        width: 75
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bcbce1925016580800000000000000
+      internalID: -8835775319755732103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 11
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3df5bd8255d28980800000000000000
+      internalID: -8538027392999490245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 7
+        width: 85
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cb1c1fe1824afb0800000000000000
+      internalID: -4637537602914632551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 11
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05610ba3662322b20800000000000000
+      internalID: 3108102107491735120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_0: 4014485182155943538
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_1: -5175940850489259744
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_10: -4392084095077845010
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_11: -5287918511632055503
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_12: 3596555653753231185
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_13: 1938291019041815466
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_14: 4473159723874376140
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_15: 2180206104797175210
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_16: -2972069357807378299
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_17: -6333097729544405012
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_18: 4305948994940762905
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_19: 2139361956942956137
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_2: -7582610251231069539
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_20: -8428204367831969353
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_21: -6216010371384194246
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_22: -6755018449177790324
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_23: -8835775319755732103
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_24: -8538027392999490245
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_25: -4637537602914632551
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_26: 3108102107491735120
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_3: -5605745518143777617
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_4: -2124106365423458509
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_5: -2494587328623257729
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_6: -693052908254394133
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_7: -6694201998050557628
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_8: -497884292152347466
+      Google_AI_Studio_2025-09-30T18_58_33.738Z-removebg-preview_9: 719188621809990080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

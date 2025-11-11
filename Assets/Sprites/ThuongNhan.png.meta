@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: f48160a5c19a11d46aa5cd38a16f1b70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2323245044828735360
+    second: ThuongNhan_0
+  - first:
+      213: 510053461743933121
+    second: ThuongNhan_1
+  - first:
+      213: 1445261962194238820
+    second: ThuongNhan_2
+  - first:
+      213: 8526650436140082077
+    second: ThuongNhan_3
+  - first:
+      213: 5084672713060056387
+    second: ThuongNhan_4
+  - first:
+      213: 3625529508711219125
+    second: ThuongNhan_5
+  - first:
+      213: 8871993762113382759
+    second: ThuongNhan_6
+  - first:
+      213: -3524660361515183567
+    second: ThuongNhan_7
+  - first:
+      213: 7981238376083846984
+    second: ThuongNhan_8
+  - first:
+      213: -1714037586971673396
+    second: ThuongNhan_9
+  - first:
+      213: -1485412875308405450
+    second: ThuongNhan_10
+  - first:
+      213: 3080743464670081536
+    second: ThuongNhan_11
+  - first:
+      213: 7292756658821390594
+    second: ThuongNhan_12
+  - first:
+      213: 977467327492227302
+    second: ThuongNhan_13
+  - first:
+      213: 3330014796173832900
+    second: ThuongNhan_14
+  - first:
+      213: -2851565329855376470
+    second: ThuongNhan_15
+  - first:
+      213: 172717895167366098
+    second: ThuongNhan_16
+  - first:
+      213: -4984507458132795544
+    second: ThuongNhan_17
+  - first:
+      213: -1869049404872511579
+    second: ThuongNhan_18
+  - first:
+      213: 1979383084880891708
+    second: ThuongNhan_19
+  - first:
+      213: 4400356183031099423
+    second: ThuongNhan_20
+  - first:
+      213: 5236844469619047891
+    second: ThuongNhan_21
+  - first:
+      213: 852586948054775080
+    second: ThuongNhan_22
+  - first:
+      213: -1288693701569708791
+    second: ThuongNhan_23
+  - first:
+      213: 4138434407049170347
+    second: ThuongNhan_24
+  - first:
+      213: 1066217195109313091
+    second: ThuongNhan_25
+  - first:
+      213: 3633023710338635298
+    second: ThuongNhan_26
+  - first:
+      213: -3145045081183122365
+    second: ThuongNhan_27
+  - first:
+      213: 2529569099897581163
+    second: ThuongNhan_28
+  - first:
+      213: 3042403023511718381
+    second: ThuongNhan_29
+  - first:
+      213: 8390065082233497504
+    second: ThuongNhan_30
+  - first:
+      213: -8298096805343628108
+    second: ThuongNhan_31
+  - first:
+      213: 8136632412921470769
+    second: ThuongNhan_32
+  - first:
+      213: -3706084530369360170
+    second: ThuongNhan_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThuongNhan_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 928
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088fbc8d0fc22cfd0800000000000000
+      internalID: -2323245044828735360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 928
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c694bbcbe2141700800000000000000
+      internalID: 510053461743933121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 928
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46db8f7e81a9e0410800000000000000
+      internalID: 1445261962194238820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 928
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d932f02456fb45670800000000000000
+      internalID: 8526650436140082077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 928
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34df01d84e2609640800000000000000
+      internalID: 5084672713060056387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 744
+        width: 233
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfbd6911e7705230800000000000000
+      internalID: 3625529508711219125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 928
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769ef302257af1b70800000000000000
+      internalID: 8871993762113382759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 744
+        width: 233
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132dcfd5314e51fc0800000000000000
+      internalID: -3524660361515183567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 745
+        width: 233
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8477132440e03ce60800000000000000
+      internalID: 7981238376083846984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_9
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 744
+        width: 233
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccb2e065e38638e0800000000000000
+      internalID: -1714037586971673396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 686
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d63762cd0c26be0800000000000000
+      internalID: -1485412875308405450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 686
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00234cfcbdff0ca20800000000000000
+      internalID: 3080743464670081536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 686
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201e962ea83153560800000000000000
+      internalID: 7292756658821390594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 686
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e089b20b59a09d00800000000000000
+      internalID: 977467327492227302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 504
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c27cbe50d6963e20800000000000000
+      internalID: 3330014796173832900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 504
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa39624d0743d68d0800000000000000
+      internalID: -2851565329855376470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_16
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 504
+        width: 232
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3ddc3b20e956200800000000000000
+      internalID: 172717895167366098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_17
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 504
+        width: 234
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f95b930e873dab0800000000000000
+      internalID: -4984507458132795544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 446
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af2bea087dcf06e0800000000000000
+      internalID: -1869049404872511579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 446
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f0eb0bd6e287b10800000000000000
+      internalID: 1979383084880891708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 446
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1033c662a4311d30800000000000000
+      internalID: 4400356183031099423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 446
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddbc939c420da840800000000000000
+      internalID: 5236844469619047891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 446
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82570f2ef4ff4db00800000000000000
+      internalID: 852586948054775080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 261
+        width: 232
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d77adf7e3ad1ee0800000000000000
+      internalID: -1288693701569708791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_24
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 261
+        width: 233
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad8b66ba2cae6930800000000000000
+      internalID: 4138434407049170347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_25
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 261
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a67efc3e6fbce00800000000000000
+      internalID: 1066217195109313091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_26
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 261
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2265e43e0d71b6230800000000000000
+      internalID: 3633023710338635298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 196
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c8d7d692e8a54d0800000000000000
+      internalID: -3145045081183122365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 196
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e2332b1b5da1320800000000000000
+      internalID: 2529569099897581163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 196
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de98df73e69c83a20800000000000000
+      internalID: 3042403023511718381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7afe46dbf7f6470800000000000000
+      internalID: 8390065082233497504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 19
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b470b5bbec37dc80800000000000000
+      internalID: -8298096805343628108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 19
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f1d10e1102be070800000000000000
+      internalID: 8136632412921470769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThuongNhan_33
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 19
+        width: 232
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de83cb51c7519cc0800000000000000
+      internalID: -3706084530369360170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThuongNhan_0: -2323245044828735360
+      ThuongNhan_1: 510053461743933121
+      ThuongNhan_10: -1485412875308405450
+      ThuongNhan_11: 3080743464670081536
+      ThuongNhan_12: 7292756658821390594
+      ThuongNhan_13: 977467327492227302
+      ThuongNhan_14: 3330014796173832900
+      ThuongNhan_15: -2851565329855376470
+      ThuongNhan_16: 172717895167366098
+      ThuongNhan_17: -4984507458132795544
+      ThuongNhan_18: -1869049404872511579
+      ThuongNhan_19: 1979383084880891708
+      ThuongNhan_2: 1445261962194238820
+      ThuongNhan_20: 4400356183031099423
+      ThuongNhan_21: 5236844469619047891
+      ThuongNhan_22: 852586948054775080
+      ThuongNhan_23: -1288693701569708791
+      ThuongNhan_24: 4138434407049170347
+      ThuongNhan_25: 1066217195109313091
+      ThuongNhan_26: 3633023710338635298
+      ThuongNhan_27: -3145045081183122365
+      ThuongNhan_28: 2529569099897581163
+      ThuongNhan_29: 3042403023511718381
+      ThuongNhan_3: 8526650436140082077
+      ThuongNhan_30: 8390065082233497504
+      ThuongNhan_31: -8298096805343628108
+      ThuongNhan_32: 8136632412921470769
+      ThuongNhan_33: -3706084530369360170
+      ThuongNhan_4: 5084672713060056387
+      ThuongNhan_5: 3625529508711219125
+      ThuongNhan_6: 8871993762113382759
+      ThuongNhan_7: -3524660361515183567
+      ThuongNhan_8: 7981238376083846984
+      ThuongNhan_9: -1714037586971673396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

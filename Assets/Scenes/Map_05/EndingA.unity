@@ -552,6 +552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: End_Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5059269471846661616, guid: 599443d8ec96f7e48b2f4e3a379357ce, type: 3}
+      propertyPath: m_text
+      value: "\xE1 \u1EA5\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5828424131977967983, guid: 599443d8ec96f7e48b2f4e3a379357ce, type: 3}
       propertyPath: audioSource
       value: 

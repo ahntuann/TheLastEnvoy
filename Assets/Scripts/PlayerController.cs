@@ -1,11 +1,12 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Player01Controller : MonoBehaviour
 {
+    [Header("Stealth Settings")]
     public bool isHiddenInGrass = false;
     private bool isHidden = false;
+
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 15f;
@@ -16,16 +17,20 @@ public class Player01Controller : MonoBehaviour
     [SerializeField] private int maxHp = 100;
     private int currentHp;
 
-    [Header("UI HP Bar")]
+    [Header("UI Settings")]
     [SerializeField] private Image HP;
+    [SerializeField] private Text coinText; // Thêm UI hiển thị coin
 
     [SerializeField] private GameOverManager gameOverManager;
-
 
     [Header("Attack Settings")]
     [SerializeField] private float attackRange = 1.5f;
     [SerializeField] private int attackDamage = 10;
     [SerializeField] private LayerMask enemyLayer;
+
+    [Header("Economy Settings")]
+    [SerializeField] private int coins = 0; // số coin hiện tại của người chơi
+    [SerializeField] private int potionHeal = 50; // lượng hồi máu của potion
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -42,7 +47,10 @@ public class Player01Controller : MonoBehaviour
 
         if (HP != null)
             HP.fillAmount = 1f;
+
+        UpdateCoinUI();
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Grass"))
@@ -65,6 +73,7 @@ public class Player01Controller : MonoBehaviour
     {
         return isHidden;
     }
+
     void Update()
     {
         if (isDead) return;
@@ -73,6 +82,12 @@ public class Player01Controller : MonoBehaviour
         HandleMovement();
         HandleJump();
         UpdateAnimation();
+
+        // Test mua potion tạm thời (ấn phím H)
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            BuyHealthPotion();
+        }
     }
 
     private void HandleMovement()
@@ -150,37 +165,25 @@ public class Player01Controller : MonoBehaviour
 
     private void Die()
     {
-        if (isDead) return; // tránh gọi 2 lần
+        if (isDead) return;
         isDead = true;
 
         rb.linearVelocity = Vector2.zero;
         animator.SetTrigger("Die");
         GetComponent<Collider2D>().enabled = false;
 
-        UnityEngine.Debug.Log("Player Died!");
+        Debug.Log("Player Died!");
 
-        // 🧠 Gọi màn Game Over
         if (gameOverManager != null)
-        {
-            // Bật Game Over UI và dừng thời gian
             gameOverManager.ShowGameOver();
-        }
         else
-        {
             Debug.LogWarning("GameOverManager chưa được gán trong Inspector!");
-        }
-
-        // Không cần tắt script ngay để đảm bảo animator còn hoạt động
-        // Nếu muốn, bạn có thể tắt sau vài giây:
-        // Invoke(nameof(DisableController), 1.5f);
     }
 
     private void DisableController()
     {
         this.enabled = false;
     }
-
-
 
     public void DealDamage()
     {
@@ -211,11 +214,72 @@ public class Player01Controller : MonoBehaviour
         }
     }
 
+    // 🪙=================== COIN & POTION SYSTEM ===================🪙
+    // Coin system
+    [Header("Coin Settings")]
+    public int coin = 0;
 
+    public void AddCoin(int amount)
+    {
+        coin += amount;
+        Debug.Log("Player nhận được " + amount + " coin. Tổng: " + coin);
+    }
+    public bool SpendCoins(int amount)
+    {
+        if (coins >= amount)
+        {
+            coins -= amount;
+            UpdateCoinUI();
+            return true;
+        }
+        else
+        {
+            Debug.Log("Không đủ coin!");
+            return false;
+        }
+    }
+
+    public void BuyHealthPotion()
+    {
+        int price = 50;
+
+        if (SpendCoins(price))
+        {
+            currentHp = Mathf.Min(currentHp + potionHeal, maxHp);
+            if (HP != null)
+                HP.fillAmount = (float)currentHp / maxHp;
+            Debug.Log("Đã mua potion! Hồi 50 HP.");
+        }
+        else
+        {
+            Debug.Log("Không đủ coin để mua potion!");
+        }
+    }
+
+    private void UpdateCoinUI()
+    {
+        if (coinText != null)
+            coinText.text = "Coins: " + coins;
+    }
+
+    // ===============================================================
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
+    public void Heal(int amount)
+    {
+        if (isDead) return;
+
+        currentHp += amount;
+        currentHp = Mathf.Min(currentHp, maxHp); 
+
+        if (HP != null)
+            HP.fillAmount = (float)currentHp / maxHp;
+
+        Debug.Log($"Player hồi {amount} máu! HP hiện tại: {currentHp}/{maxHp}");
+    }
+
 }

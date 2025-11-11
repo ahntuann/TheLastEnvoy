@@ -1,14 +1,0 @@
-Font: Liberation Sans  Style: Regular
-Point Size: 190   Padding: 5   SP/PD Ratio: 2.6%
-
-Characters included: 232/234
-Missing characters: 2
-Excluded characters: 0
-
-Characters missing from font file:
-----------------------------------------
-ID: 9	Hex: 9	Char [	]
-ID: 13	Hex: D	Char []
-
-Characters excluded from packing:
-----------------------------------------

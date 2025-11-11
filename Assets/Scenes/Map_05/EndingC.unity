@@ -430,7 +430,7 @@ PrefabInstance:
     - target: {fileID: 913618644311085100, guid: 599443d8ec96f7e48b2f4e3a379357ce, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -4264577601857349668, guid: 9c520d2f316a5e44798af4b945f46445, type: 3}
+      objectReference: {fileID: -4264577601857349668, guid: 9e54c39ddf7a951409a5b36a9b0d01d1, type: 3}
     - target: {fileID: 3757012655309472435, guid: 599443d8ec96f7e48b2f4e3a379357ce, type: 3}
       propertyPath: m_Name
       value: End_Canvas

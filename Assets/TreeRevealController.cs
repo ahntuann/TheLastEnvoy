@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TreeRevealController : MonoBehaviour
@@ -10,6 +11,12 @@ public class TreeRevealController : MonoBehaviour
     public GameObject treeHidden;
     public GameObject treeNormal;
     public GameObject hiddenNPC;
+
+    [Header("Popup UI")]
+    public GameObject badEndPopup;  // Panel popup chứa image
+    public Image popupImage;        // Image hiển thị trong popup
+    public Sprite badEndSprite;     // Hình ảnh bạn muốn hiển thị khi bad end
+
 
     [Header("UI References")]
     public GameObject guideTextUI1;
@@ -33,22 +40,70 @@ public class TreeRevealController : MonoBehaviour
 
     [Header("Dialog Settings")]
     [TextArea(2, 5)]
-    public List<string> npcDialogLines = new List<string>();
+    public List<string> npcDialogLines = new List<string>(); // dialog ban đầu
     public float dialogFadeDuration = 0.3f;         // fade in/out từng câu
     public float dialogHoldDuration = 1f;           // giữ câu thoại
+
+    [Header("Dialog Settings - After Quiz")]
+    [TextArea(2, 5)]
+    public List<string> npcDialogLinesG3 = new List<string>();
+
+    [TextArea(2, 5)]
+    public List<string> npcDialogLinesG4 = new List<string>();
 
     private bool stepV = false;
     private bool stepS = false;
     private bool revealed = false;
     private bool playerInRange = false;
 
-    private int currentDialogIndex = 0;
+    private int currentDialogIndexBase = 0; // index cho npcDialogLines ban đầu
+    private int currentDialogIndex = 0;     // index cho npcDialogLinesG3, G4 sau quiz
     private bool dialogPlaying = false;
 
     private Text t1, t2, dialogText;
     private TMPro.TextMeshProUGUI tmp1, tmp2, dialogTMP;
 
+    IEnumerator PlayDialogGroup(List<string> dialogGroup)
+    {
+        currentDialogIndex = 0;
 
+        while (currentDialogIndex < dialogGroup.Count)
+        {
+            dialogPlaying = true;
+            yield return StartCoroutine(ShowDialogLine(dialogGroup[currentDialogIndex]));
+            dialogPlaying = false;
+            currentDialogIndex++;
+
+            yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        }
+    }
+
+    IEnumerator ContinueDialogAfterQuiz()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        if (npcDialogLinesG3 != null && npcDialogLinesG3.Count > 0)
+        {
+            yield return StartCoroutine(PlayDialogGroup(npcDialogLinesG3));
+        }
+
+        if (npcDialogLinesG4 != null && npcDialogLinesG4.Count > 0)
+        {
+            yield return StartCoroutine(PlayDialogGroup(npcDialogLinesG4));
+        }
+
+
+        // --- Sau khi hoàn tất G3 + G4 ---
+        yield return new WaitForSeconds(0.5f);
+
+        // Thực hiện fade out toàn màn hình
+        yield return StartCoroutine(FadeOutScene());
+
+        // Chuyển scene
+        SceneManager.LoadScene("end_scene");
+
+
+    }
 
     void Start()
     {
@@ -78,6 +133,11 @@ public class TreeRevealController : MonoBehaviour
             dialogTMP = dialogUI.GetComponent<TMPro.TextMeshProUGUI>();
             SetAlpha(dialogUI, 0f);
         }
+
+        if (quizController != null)
+        {
+            quizController.OnQuizCompleted += OnQuizFinished;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -92,7 +152,7 @@ public class TreeRevealController : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         if (other == null) return; // kiểm tra collider
-        if (other.CompareTag("Main"))
+        if (other.CompareTag(mainTag))
         {
             if (guideTextUI1 != null)
                 SetAlpha(guideTextUI1.gameObject, 0f);
@@ -101,7 +161,6 @@ public class TreeRevealController : MonoBehaviour
                 SetAlpha(guideTextUI2.gameObject, 0f);
         }
     }
-
 
     void Update()
     {
@@ -123,13 +182,16 @@ public class TreeRevealController : MonoBehaviour
             StartCoroutine(RevealTree());
         }
 
-        // --- Next dialog bằng click trái ---
+        // --- Next dialog bằng click trái cho dialog ban đầu ---
         if (revealed && dialogUI != null && Input.GetMouseButtonDown(0) && !dialogPlaying)
         {
-            if (currentDialogIndex < npcDialogLines.Count)
-                StartCoroutine(ShowDialogLine(npcDialogLines[currentDialogIndex]));
+            if (currentDialogIndexBase < npcDialogLines.Count)
+            {
+                StartCoroutine(ShowDialogLineBaseDialog(npcDialogLines[currentDialogIndexBase]));
+            }
         }
     }
+
 
     // --- Guide sequence ---
     IEnumerator ShowGuidesSequence()
@@ -156,9 +218,16 @@ public class TreeRevealController : MonoBehaviour
     {
         revealed = true;
 
-        // Update Guide 2 text
+        // Update Guide 2 text và hiện nó
         if (guideTextUI2 != null)
+        {
             SetText(guideTextUI2, "Kẻ ẩn nấp đã lộ diện!");
+            yield return StartCoroutine(FadeInText(guideTextUI2)); // Fade in
+
+            yield return new WaitForSeconds(2f); // giữ 2 giây
+
+            yield return StartCoroutine(FadeOutText(guideTextUI2)); // Fade out hoặc bạn có thể set alpha=0 ngay
+        }
 
         // Tree
         if (treeHidden != null) treeHidden.SetActive(false);
@@ -174,8 +243,9 @@ public class TreeRevealController : MonoBehaviour
         // Dialog UI sẽ xuất hiện khi nhấn click trái
     }
 
-    // --- Show dialog line with fade in/out ---
-    IEnumerator ShowDialogLine(string line)
+
+    // Coroutine hiển thị dialog ban đầu (npcDialogLines)
+    IEnumerator ShowDialogLineBaseDialog(string line)
     {
         dialogPlaying = true;
 
@@ -211,10 +281,41 @@ public class TreeRevealController : MonoBehaviour
             quizController.ShowQuestion(0);
         }
 
-
-        // Next
-        currentDialogIndex++;
+        currentDialogIndexBase++;
         dialogPlaying = false;
+    }
+
+    // Coroutine hiển thị dialog G3, G4 (giữ nguyên)
+    IEnumerator ShowDialogLine(string line)
+    {
+        dialogPlaying = true;
+
+        SetText(dialogUI, line);
+
+        // Fade in
+        float t = 0f;
+        while (t < dialogFadeDuration)
+        {
+            t += Time.deltaTime;
+            float alpha = Mathf.Lerp(0f, 1f, t / dialogFadeDuration);
+            SetAlpha(dialogUI, alpha);
+            yield return null;
+        }
+        SetAlpha(dialogUI, 1f);
+
+        // Hold
+        yield return new WaitForSeconds(dialogHoldDuration);
+
+        // Fade out
+        t = 0f;
+        while (t < dialogFadeDuration)
+        {
+            t += Time.deltaTime;
+            float alpha = Mathf.Lerp(1f, 0f, t / dialogFadeDuration);
+            SetAlpha(dialogUI, alpha);
+            yield return null;
+        }
+        SetAlpha(dialogUI, 0f);
     }
 
     // --- Helpers ---
@@ -242,13 +343,27 @@ public class TreeRevealController : MonoBehaviour
         }
     }
 
-
     void SetText(GameObject go, string msg)
     {
         Text txt = go?.GetComponent<Text>();
         TMPro.TextMeshProUGUI tmp = go?.GetComponent<TMPro.TextMeshProUGUI>();
         if (txt != null) txt.text = msg;
         else if (tmp != null) tmp.text = msg;
+    }
+
+    private void OnQuizFinished(bool isWin)
+    {
+        if (isWin)
+        {
+            // Tiếp tục hội thoại G3, G4
+            StartCoroutine(ContinueDialogAfterQuiz());
+        }
+        else
+        {
+            // Nếu thua, có thể xử lý khác nếu muốn
+            if (guideTextUI2 != null)
+                SetText(guideTextUI2, "Bạn đã thất bại, hãy thử lại!");
+        }
     }
 
     IEnumerator FadeInText(GameObject go)
@@ -282,6 +397,38 @@ public class TreeRevealController : MonoBehaviour
         }
         SetAlpha(go, 0f);
     }
+
+    IEnumerator FadeOutScene()
+    {
+        // Tạo 1 Canvas tạm thời phủ toàn màn hình
+        GameObject fadeCanvas = new GameObject("FadeCanvas");
+        Canvas canvas = fadeCanvas.AddComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        CanvasGroup cg = fadeCanvas.AddComponent<CanvasGroup>();
+        cg.alpha = 0f;
+
+        // Thêm Image đen phủ kín màn hình
+        GameObject imgObj = new GameObject("FadeImage");
+        imgObj.transform.SetParent(fadeCanvas.transform, false);
+        Image img = imgObj.AddComponent<Image>();
+        img.color = Color.black;
+        RectTransform rect = img.GetComponent<RectTransform>();
+        rect.anchorMin = Vector2.zero;
+        rect.anchorMax = Vector2.one;
+        rect.offsetMin = Vector2.zero;
+        rect.offsetMax = Vector2.zero;
+
+        // Fade in màu đen
+        float t = 0f;
+        while (t < fadeDuration)
+        {
+            t += Time.deltaTime;
+            cg.alpha = Mathf.Lerp(0f, 1f, fadeCurve.Evaluate(t / fadeDuration));
+            yield return null;
+        }
+        cg.alpha = 1f;
+    }
+
 
     IEnumerator FadeInSprite(GameObject obj)
     {

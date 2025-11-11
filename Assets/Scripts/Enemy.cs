@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float attackCooldown = 1.2f;
     [SerializeField] private float knockbackForce = 6f;
     [SerializeField] private float stunDuration = 0.4f;
-    [SerializeField] private float dieAnimDuration = 1.2f; 
+    [SerializeField] private float dieAnimDuration = 1.2f;
 
     private float currentHp;
     private float nextAttackTime = 0f;
@@ -25,7 +25,6 @@ public class Enemy : MonoBehaviour
     private bool isAttacking = false;
     private bool isDead = false;
     private bool isStunned = false;
-
     private Vector3 startPos;
     private Animator anim;
     private Transform player;
@@ -39,7 +38,6 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
         startPos = transform.position;
-
         if (hpBar != null)
             hpBar.gameObject.SetActive(false);
     }
@@ -55,12 +53,10 @@ public class Enemy : MonoBehaviour
     void DetectPlayer()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, detectRange, playerLayer);
-
         if (hit != null)
         {
             player = hit.transform;
             FacePlayer();
-
             if (Time.time >= nextAttackTime && !isAttacking)
             {
                 isAttacking = true;
@@ -78,13 +74,11 @@ public class Enemy : MonoBehaviour
     void FacePlayer()
     {
         if (player == null) return;
-
         Vector3 scale = transform.localScale;
         if (player.position.x > transform.position.x && scale.x < 0)
             scale.x *= -1;
         else if (player.position.x < transform.position.x && scale.x > 0)
             scale.x *= -1;
-
         transform.localScale = scale;
     }
 
@@ -92,7 +86,6 @@ public class Enemy : MonoBehaviour
     {
         float leftBound = startPos.x - distance;
         float rightBound = startPos.x + distance;
-
         if (movingRight)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
@@ -142,11 +135,9 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if (isDead) return;
-
         currentHp -= damage;
         currentHp = Mathf.Max(currentHp, 0);
         Debug.Log($"Enemy took {damage} damage! HP: {currentHp}/{maxHp}");
-
         if (rb != null)
         {
             isStunned = true;
@@ -155,7 +146,6 @@ public class Enemy : MonoBehaviour
             rb.AddForce(new Vector2(knockDir * knockbackForce, 3f), ForceMode2D.Impulse);
             Invoke(nameof(EndStun), stunDuration);
         }
-
         if (currentHp <= 0)
         {
             Die();
@@ -170,21 +160,29 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         if (isDead) return;
-
         isDead = true;
         isAttacking = false;
         isStunned = false;
 
-        
         if (rb != null) rb.linearVelocity = Vector2.zero;
         if (col != null) col.enabled = false;
 
-       
         anim.ResetTrigger("Attack");
         anim.SetTrigger("EnemyDie");
         Debug.Log("Enemy Died!");
 
-        
+     
+        Player01Controller playerController = FindObjectOfType<Player01Controller>();
+        if (playerController != null)
+        {
+            playerController.AddCoin(10);
+            Debug.Log("Đã cho player 10 coins!");
+        }
+        else
+        {
+            Debug.LogWarning("Không tìm thấy Player01Controller!");
+        }
+
         Destroy(gameObject, dieAnimDuration);
     }
 
@@ -192,7 +190,6 @@ public class Enemy : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectRange);
-
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }

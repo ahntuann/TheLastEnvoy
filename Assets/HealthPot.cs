@@ -23,7 +23,7 @@ public class HealthPot : MonoBehaviour
         player = FindObjectOfType<Player01Controller>();
 
         if (priceTxt != null)
-            priceTxt.text = price + " gold";
+            priceTxt.text = price + " coins";
 
         if (quantityTxt != null)
             quantityTxt.text = "x1";
@@ -33,19 +33,18 @@ public class HealthPot : MonoBehaviour
     {
         if (player == null)
         {
-            Debug.LogWarning("Không tìm thấy PlayerStats trong scene!");
+            Debug.LogWarning("Không tìm thấy Player01Controller trong scene!");
             return;
         }
 
-        if (player.coin >= price)
+        if (player.SpendCoins(price))
         {
-            player.SpendCoins(price);
             player.Heal(healAmount);
             Debug.Log($"Đã mua Health Potion! +{healAmount} HP");
         }
         else
         {
-            Debug.Log("Không đủ tiền để mua potion!");
+            Debug.Log("Không đủ coin để mua potion!");
         }
     }
 }
